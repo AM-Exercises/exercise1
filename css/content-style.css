@@ -1,0 +1,25 @@
+
+#one-content-box{
+    background-image: url("images/1.png");
+    background-size:cover;
+  }
+  #two-content-box{
+    background-image: url("images/2.png");
+    background-size:cover;
+  }
+  #three-conent-box{
+    background-image: url("images/3.png");
+    background-size:cover;
+  }
+  #four-content-box{
+    background-image: url("images/4.png");
+    background-size:cover;
+  }
+  #five-content-box{
+    background-image: url("images/5.png");
+    background-size:cover;
+  }
+  #six-content-box{
+    background-image: url("images/6.png");
+    background-size:cover;
+  }

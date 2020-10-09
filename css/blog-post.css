@@ -1,0 +1,40 @@
+@import  "header-style.css";
+@import "footer-style.css";
+@import "general-style.css";
+
+.container{
+    /* Step 1: Set display to grid */
+      display:grid;
+   /* Step 2: setup rows amd columns */
+      grid-template-columns: minmax(1fr, auto);
+      
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "main main main main main sd sd sd"
+      "ft ft ft ft ft ft ft ft";
+      
+  }
+  
+  .sidebar{
+    grid-area:sd;
+  }
+  .content{
+    grid-area:main;
+  }
+  #one-sidebar-box{
+    background: #d3d3d3;
+  }
+  #two-sidebar-box{
+  display:flex;
+  flex-direction: column;
+  
+}
+#three-sidebar-box{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+#example-code{
+    border: 2px solid black;
+}

@@ -1,0 +1,35 @@
+@import  "header-style.css";
+@import "content-style.css";
+@import "footer-style.css";
+@import "general-style.css";
+
+.container{
+ 
+    display:grid;
+    grid-template-columns: minmax(3fr, auto);
+    
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft" 
+    
+}
+
+.content{
+  grid-area: main;
+}
+  
+  .nestedGrid{
+    display: grid;
+    grid-template-columns: 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 50px;
+    color:black;
+  }
+  .box{
+      border: 10px solid #d3d3d3;
+  } 
+   
+
+ 
+  

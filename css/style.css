@@ -27,9 +27,12 @@
     color:black;
   }
   .box{
-      border: 10px solid #d3d3d3;
+      border: 5px solid #e49a9a;
   } 
    
+  .blog-post-subject{
+    text-decoration: underline;
+  }
 
  
   

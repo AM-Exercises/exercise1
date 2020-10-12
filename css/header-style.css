@@ -1,13 +1,13 @@
 .header{
   grid-area:hd;
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
 }
 
   #one-header-box{
     color:gray;
   }
   #two-header-box{
-    padding-left: 350px;
     text-decoration: underline;
+    text-align: center;
   }
